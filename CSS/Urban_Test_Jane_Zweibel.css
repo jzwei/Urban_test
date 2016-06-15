@@ -1,0 +1,27 @@
+.container-padding { /*adding padding around container*/
+	padding: 1em;
+
+}
+
+.restrict-width { /*reducing space between images by restricting the container width*/
+	width: 75%;
+}
+
+img { /*centering the image within its container*/
+	display: block;
+	margin: auto;
+}
+
+.image { /*centering the image container within the column*/
+	margin: auto;
+	margin-bottom: 15px;
+}
+.image:hover {
+	background-color: white;
+	transition-duration: 1s;
+	opacity: .7;
+}
+
+.row-center { /*centering the rows within the container*/
+	margin: auto;
+}
