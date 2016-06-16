@@ -1,23 +1,17 @@
 .container-padding { /*adding padding around container*/
 	padding: 1em;
-
 }
 
 .restrict-width { /*reducing space between images by restricting the container width*/
 	width: 75%;
 }
 
-img { /*centering the image within its container*/
-	display: block;
+.image-container { /*adding margin and padding to images within container*/
 	margin: auto;
+	padding-bottom: 15px;
 }
 
-.image { /*centering the image container within the column*/
-	margin: auto;
-	margin-bottom: 15px;
-}
-.image:hover {
-	background-color: white;
+.image-hover:hover { /*adding transparent hover effect*/
 	transition-duration: 1s;
 	opacity: .7;
 }
